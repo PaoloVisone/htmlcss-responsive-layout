@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, ‘Helvetica Neue’, sans-serif;
+    background-color: lightgrey;
+}
+
+/* Mobile First */
+
+header {
+    background-color: white;
+    font-family: ‘Nerko One’, cursive;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: rgba(78, 57, 105, 1);
+}
+
+#container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#video {
+    width: 70%;
+}
+
+#tiramisu {
+    width: 100%;
+}
+
+#description {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+}
+
+#head-list {
+    color: rgba(78, 57, 105, 1);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+ul {
+    margin-top: 20px;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
