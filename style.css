@@ -266,5 +266,12 @@ main {
             display: block;
         }
 
+        #row>.btn {
+            padding: 10px;
+        }
+
+        #banner {
+            display: none;
+        }
 
     }
