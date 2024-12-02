@@ -6,7 +6,7 @@
 
 body {
     font-family: Montserrat, ‘Helvetica Neue’, sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(227, 226, 226);
 }
 
 /* Mobile First */
@@ -16,12 +16,31 @@ header {
     font-family: ‘Nerko One’, cursive;
 }
 
+/* REGOLE PER LE H */
+
 h1 {
     color: orange;
+    padding: 15px;
+    font-size: 50px;
 }
 
 h2 {
     color: rgba(78, 57, 105, 1);
+    margin: 15px 0;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 30px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+/* HERO SECTION */
+
+main {
+    padding: 50px;
 }
 
 #container {
@@ -29,11 +48,19 @@ h2 {
     margin: 20px auto;
 }
 
+#category {
+    font-size: 20px;
+    color: gray;
+}
+
 #content {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    height: 500px;
 }
+
+/* VIDEO SECTION */
 
 #video {
     width: 70%;
@@ -41,27 +68,133 @@ h2 {
 
 #tiramisu {
     width: 100%;
+    height: 100%;
 }
+
+/* RICETTA TEXT */
 
 #description {
     width: 30%;
     background-color: white;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 #head-list {
-    color: rgba(78, 57, 105, 1);
     font-size: 25px;
     font-weight: 700;
 }
 
-ul {
-    margin-top: 20px;
-
+#list-main {
+    margin-top: 30px;
 }
 
-ul li {
+#list-main li {
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
+    padding: 10px 0;
+    color: rgb(44, 43, 43);
+}
+
+/* BRAND BUTTON LINKS */
+
+#row {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row>.btn {
+    text-decoration: none;
+    color: black;
+    padding: 10px 55px;
+    background-color: white;
+    border-radius: 999px;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(173, 172, 172);
+}
+
+/* COLOR BRANDS */
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter {
+    color: cadetblue;
+}
+
+.fa-instagram {
+    color: palevioletred;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+/* LINE */
+
+#line {
+    width: 10%;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+}
+
+/* DESCRIZIONE PRODOTTO FLOAT + CLEARFIX */
+
+#clearfix>img {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#text {
+    font-size: 20px;
+    color: rgb(37, 36, 36);
+    line-height: 30px;
+}
+
+.black-txt {
+    color: black;
+}
+
+/* FOOTER */
+
+#nav-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgba(78, 57, 105, 1);
+    color: white;
+}
+
+#copy {
+    margin-bottom: 10px;
+}
+
+#address {
+    font-size: 14px;
+}
+
+#list-foot li {
+    display: inline-block;
+}
+
+#list-foot li a {
+    color: white;
+    padding: 10px;
 }

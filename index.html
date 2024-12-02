@@ -2,15 +2,22 @@
 <html lang="en">
 
 <head>
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GialloBooleano</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <header>
+
+        <!-- LOGO -->
 
         <h1>
             Giallo Booleano
@@ -20,16 +27,24 @@
 
     <main>
 
+        <!-- HERO SECTION -->
+
         <section id="container">
-            <span id="Category">DOLCI E DESSERTS</span>
+            <span id="category">DOLCI E DESSERTS</span>
             <h2>Tiramisù <strong id="txt">(Dolce tradizionale)</strong></h2>
             <div id="content">
+
+                <!-- VIDEO SECTION -->
+
                 <div id="video">
                     <img id="tiramisu" src="img/image (10).png" alt="image (10)">
                 </div>
+
+                <!-- RICETTA -->
+
                 <div id="description">
                     <span id="head-list">In breve</span>
-                    <ul>
+                    <ul id="list-main">
                         <li>Difficoltà: <strong>Facile</strong></li>
                         <li>Tempo: <strong>40 min</strong></li>
                         <li>Porzioni per: <strong>8 persone</strong></li>
@@ -37,23 +52,70 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- BRAND BUTTON LINKS -->
+
             <div id="row">
-                <a href="#">FACEBOOK</a>
-                <a href="#">TWITTER</a>
-                <a href="#">INSTAGRAM</a>
-                <a href="#">PINTEREST</a>
-                <a href="#">YOUTUBE</a>
+                <a class="btn" href="#"><i class="fa-brands fa-facebook"></i> FACEBOOK</a>
+                <a class="btn" href="#"><i class="fa-brands fa-twitter"></i> TWITTER</a>
+                <a class="btn" href="#"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
+                <a class="btn" href="#"><i class="fa-brands fa-pinterest"></i> PINTEREST</a>
+                <a class="btn" href="#"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
             </div>
 
+            <!-- BANNER -->
 
+            <div id="banner">
+                <img src="img/banner.png" alt="banner">
+            </div>
+
+            <!-- PRESENTAZIONE PRODOTTO -->
+
+            <h3>PRESENTATION</h3>
+
+            <div id="line"></div>
+
+            <div id="clearfix">
+                <img src="img/tiramisu.jpg" alt="tiramisu">
+                <p id="text">Back in the day, grandmothers used to prepare a breakfast that we might call humble today,
+                    but was
+                    considered very rich at the time! Today the recipe is still unchanged, just break a very fresh egg
+                    into a glass, beat it with sugar, and add coffee or hot milk, for children, or <strong
+                        class="black-txt">Marsala
+                        wine</strong> or
+                    aniseed for adults. This marvelous cream gave rise to mascarpone cream used to make
+                    <strong class="black-txt">Tiramisù</strong>
+                    (mascarpone cheese and ladyfingers dessert). This is the <strong class="black-txt">best Italian
+                        dessert</strong>, the
+                    most popular and
+                    beloved of them all, and it has also birthed many other versions, even an egg-free Tiramisù! There
+                    is also a strawberry and Nutella tiramisù! Although the origins of this famous dessert are unclear,
+                    because it is disputed between the regions of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany,
+                    it remains a cornerstone of Italian cuisine and it's widely prepared from North to South.
+                    Unfortunately, we weren’t able to find out who invented it, but we can certainly teach you how to
+                    prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!
+                </p>
+            </div>
         </section>
-
     </main>
 
-    <nav>
+    <!-- FOOTER NAVIGATION -->
 
+    <nav id="nav-foot">
+        <div id="foot-sx">
+            <p id="copy"><strong>© 2021 Giallo Booleano S.p.a.</strong></p>
+            <span id="address">Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020</span>
+        </div>
+        <div id="foot-dx">
+            <ul id="list-foot">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Disclaimer</a></li>
+            </ul>
+        </div>
     </nav>
-
 </body>
 
 </html>
