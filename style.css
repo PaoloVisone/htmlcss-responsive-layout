@@ -9,8 +9,6 @@ body {
     background-color: rgb(227, 226, 226);
 }
 
-/* Mobile First */
-
 header {
     background-color: white;
     font-family: ‘Nerko One’, cursive;
@@ -57,7 +55,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* VIDEO SECTION */
@@ -198,3 +196,75 @@ main {
     color: white;
     padding: 10px;
 }
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media screen and (max-width:991px) {
+
+    main {
+        padding: 0;
+    }
+
+
+    #content {
+        display: block;
+        width: auto;
+    }
+
+    #video {
+        width: 100%;
+    }
+
+    #description {
+        width: 100%;
+        padding: 50px;
+    }
+
+    #list-main {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    #list-main li {
+        width: 33%;
+        font-size: 18px;
+    }
+
+    #row>.btn {
+        padding: 10px 60px;
+    }
+
+    .name-brand {
+        display: none;
+    }
+
+    #nav-foot {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    #list-foot {
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 576px) {
+
+        header {
+            text-align: center;
+        }
+
+        #txt {
+            display: none;
+        }
+
+        #list-main {
+            display: block;
+        }
+
+
+    }
